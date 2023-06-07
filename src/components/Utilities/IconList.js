@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const IconList = () => {
   return (
     <div className='icon-list'>
-      <Link><RiNotification4Line /></Link>
+      <Link to='/notifications'><RiNotification4Line /></Link>
       <Link to='/settings'><VscSettingsGear /></Link>
       <Link to='/profile'><BiUserCircle /></Link>
     </div>
