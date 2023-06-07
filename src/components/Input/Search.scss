@@ -1,0 +1,24 @@
+.merge-search {
+  display: flex;
+  background-color: #05060f0a;
+  align-items: center;
+  padding: 0 10px 0 3px;
+  border-radius: 8px;
+  margin-left: 20px;
+  width: 250px;
+}
+input {
+  width: 250px;
+  height: 35px;
+  font-family:  Lexend,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;;
+  background: transparent;
+  font-size: 12px;
+  border-radius: 0.5rem;
+  padding: 5px;
+  border: 2px solid transparent;
+  color: rgb(44, 41, 41);
+
+  &:focus{
+    outline: none;
+  }
+}

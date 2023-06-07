@@ -1,112 +1,104 @@
-import React from "react";
-import * as FaIcons from "react-icons/fa";
-import * as MdIcons from "react-icons/md";
-import * as RxIcons from "react-icons/rx";
+import {
+  RiNotification4Line,
+  RiCustomerService2Line,
+} from "react-icons/ri";
+import { BiUser, BiBlock, BiUserCircle, BiPhoneCall } from "react-icons/bi";
+import { BsSpeedometer2, BsPersonAdd } from "react-icons/bs";
+import {
+  MdOutlineGroups,
+  MdOutlineGeneratingTokens,
+  MdOutlineManageAccounts,
+} from "react-icons/md";
+import {
+  AiOutlineSchedule,
+  AiOutlineDashboard,
+  AiOutlineFileSync,
+} from "react-icons/ai";
+import { VscPersonAdd } from "react-icons/vsc";
 
-export const SidebarData = [
+export const main = [
   {
     name: "Dashboard",
-    path: "/dashboard",
-    icon: <RxIcons.RxDashboard />,
+    path: "/",
+    icon: <BsSpeedometer2 />,
   },
   {
     name: "Notifications",
     path: "/notifications",
-    icon: <MdIcons.MdOutlineNotificationsNone />,
+    icon: <RiNotification4Line />,
+  },
+];
+
+export const manage = [
+  {
+    name: "Visitors Log",
+    path: "/visitorslog",
+    icon: <BiUser />,
   },
   {
-    name: "Visitor Management",
-    path: "/visitor_management",
-    icon: <MdIcons.MdOutlineManageAccounts />,
-    toggledropIcon: <FaIcons.FaAngleRight />,
-    toggledownIcon: <FaIcons.FaAngleDown />,
-    subMenu: [
-      {
-        name: "Visiors Log",
-        path: "/visitor_management/visitors_log",
-      },
-      {
-        name: "Blacklisted Visitors",
-        path: "/visitor_management/blacklist",
-      },
-      {
-        name: "Add New Visitor",
-        path: "/visitor_management/add_visitor",
-      },
-      {
-        name: "Invite Visitor",
-        path: "/visitor_management/invite",
-      },
-      {
-        name: "Book Meeting Room",
-        path: "/visitor_management/booking",
-      },
-      {
-        name: "My Schedule",
-        path: "/visitor_management/schedule",
-      },
-    ],
+    name: "BlackList",
+    path: "/blacklist",
+    icon: <BiBlock />,
   },
   {
-    name: "Queue",
-    path: "/queue_management",
-    icon: <MdIcons.MdOutlineGroup />,
-    toggledropIcon: <FaIcons.FaAngleRight />,
-    toggledownIcon: <FaIcons.FaAngleDown />,
-    subMenu: [
-      {
-        name: "QM Dashboard",
-        path: "/queue_management/dashboard",
-      },
-      {
-        name: "My Tokens",
-        path: "/queue_management/tokens",
-      },
-      {
-        name: "Performance Reports",
-        path: "/queue_management/performance_reports",
-      },
-      {
-        name: "Counter Management",
-        path: "/queue_management/counter_management",
-      },
-    ],
+    name: "New Visitors",
+    path: "/new-visitors",
+    icon: <BsPersonAdd />,
   },
   {
-    name: "System Admin",
-    path: "/system_admin",
-    icon: <MdIcons.MdOutlineAdminPanelSettings />,
-    toggledropIcon: <FaIcons.FaAngleRight />,
-    toggledownIcon: <FaIcons.FaAngleDown />,
-    subMenu: [
-      {
-        name: "General Settings",
-        path: "/system_admin/settings",
-      },
-      {
-        name: "Add Meeting Host",
-        path: "/system_admin/add_meeting_host",
-      },
-      {
-        name: "Meeting Host List",
-        path: "/system_admin/meeting_host_list",
-      },
-      {
-        name: "Create Department",
-        path: "/system_admin/department",
-      },
-      {
-        name: "Add Services",
-        path: "/system_admin/services",
-      },
-      {
-        name: "Add Users",
-        path: "/system_admin/add_user",
-      },
-      {
-        name: "Users List",
-        path: "/system_admin/users",
-      },
-    ],
+    name: "Invite",
+    path: "/invite",
+    icon: <BiPhoneCall />,
+  },
+  {
+    name: "Meeting Room",
+    path: "/room",
+    icon: <MdOutlineGroups />,
+  },
+  {
+    name: "Schedule",
+    path: "/schedule",
+    icon: <AiOutlineSchedule />,
+  },
+];
+
+export const queue = [
+  {
+    name: "QM Dashboard",
+    path: "/qmdashboard",
+    icon: <AiOutlineDashboard />,
+  },
+  {
+    name: "Tokens",
+    path: "/tokens",
+    icon: <MdOutlineGeneratingTokens />,
+  },
+  {
+    name: "Reports",
+    path: "/reports",
+    icon: <AiOutlineFileSync />,
+  },
+  {
+    name: "Management",
+    path: "/manament",
+    icon: <MdOutlineManageAccounts />,
+  },
+];
+
+export const systemAdmin = [
+  {
+    name: "Meeting Host",
+    path: "/hosts",
+    icon: <VscPersonAdd />,
+  },
+  {
+    name: "Services",
+    path: "/services",
+    icon: <RiCustomerService2Line />,
+  },
+  {
+    name: "Users",
+    path: "/users",
+    icon: <BiUserCircle />,
   },
 ];

@@ -1,0 +1,21 @@
+colors = {
+    #fbfef9
+    #2c2c2f
+    
+}
+
+ <SideLinks name="Notification" icon={<RiNotification4Line />} />
+        <SideLinks name="Visitors Log" icon={<BiUser />} />
+        <SideLinks name="BlackList" icon={<BiBlock />} />
+        <SideLinks name="New Visitors" icon={<BsPersonAdd />}/>
+        <SideLinks name="Invite" icon={<BiPhoneCall />}/>
+        <SideLinks name="Meeting Room" icon={<MdOutlineGroups />}/>
+        <SideLinks name="Schedule" icon={<AiOutlineSchedule />}/>
+        <SideLinks name="QM Dashboard" icon={<AiOutlineDashboard />}/>
+        <SideLinks name="Tokens" icon={<MdOutlineGeneratingTokens />}/>
+        <SideLinks name="Reports" icon={<AiOutlineFileSync />}/>
+        <SideLinks name="Management" icon={<MdOutlineManageAccounts />}/>
+        <SideLinks name="Settings" icon={<RiSettings5Line />}/>
+        <SideLinks name="Meeting Host" icon={<VscPersonAdd />}/>
+        <SideLinks name="Services" icon={<RiCustomerService2Line />}/>
+        <SideLinks name="Users" icon={<BiUserCircle />}/>
