@@ -1,0 +1,40 @@
+.dash-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr); 
+    padding: 10px;
+    height: 90%;
+    gap: 10px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.grid-items{
+    border: 2px solid red;
+}
+
+.check-in{
+    grid-column: span 3;
+}
+.check-out{
+    grid-column: span 3;
+}
+.daily-average{
+    grid-column: span 3;
+}
+.weekly-average{
+    grid-column: span 3;
+}
+.bar{
+    grid-column: span 9;
+    grid-row: span 3;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+     border-radius: 8px;
+}
+.busiest-day{
+    grid-column: span 3;
+    grid-row: span 3;
+}
