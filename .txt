@@ -1,21 +1,30 @@
-colors = {
-    #fbfef9
-    #2c2c2f
-    
-}
+Oceanic Blues:
 
- <SideLinks name="Notification" icon={<RiNotification4Line />} />
-        <SideLinks name="Visitors Log" icon={<BiUser />} />
-        <SideLinks name="BlackList" icon={<BiBlock />} />
-        <SideLinks name="New Visitors" icon={<BsPersonAdd />}/>
-        <SideLinks name="Invite" icon={<BiPhoneCall />}/>
-        <SideLinks name="Meeting Room" icon={<MdOutlineGroups />}/>
-        <SideLinks name="Schedule" icon={<AiOutlineSchedule />}/>
-        <SideLinks name="QM Dashboard" icon={<AiOutlineDashboard />}/>
-        <SideLinks name="Tokens" icon={<MdOutlineGeneratingTokens />}/>
-        <SideLinks name="Reports" icon={<AiOutlineFileSync />}/>
-        <SideLinks name="Management" icon={<MdOutlineManageAccounts />}/>
-        <SideLinks name="Settings" icon={<RiSettings5Line />}/>
-        <SideLinks name="Meeting Host" icon={<VscPersonAdd />}/>
-        <SideLinks name="Services" icon={<RiCustomerService2Line />}/>
-        <SideLinks name="Users" icon={<BiUserCircle />}/>
+Primary: #0F4C75 (Dark Blue)
+Secondary: #1282A2 (Teal Blue)
+Accent: #00B4D8 (Cyan Blue)
+Sunny Citrus:
+
+Primary: #FF6B35 (Vibrant Orange)
+Secondary: #FFC433 (Golden Yellow)
+Accent: #3A86FF (Bright Blue)
+Muted Pastels:
+
+Primary: #E8C1A0 (Peach)
+Secondary: #A1D6E2 (Soft Blue)
+Accent: #C6D8FF (Pale Lavender)
+Nature's Greens:
+
+Primary: #2ECC71 (Emerald Green)
+Secondary: #27AE60 (Dark Green)
+Accent: #FFA726 (Amber)
+Vibrant Jewel Tones:
+
+Primary: #7F00FF (Electric Purple)
+Secondary: #00CED1 (Turquoise)
+Accent: #FF1493 (Deep Pink)
+Warm Autumn:
+
+Primary: #D35400 (Burnt Orange)
+Secondary: #FF5733 (Coral)
+Accent: #6C3483 (Plum)

@@ -11,9 +11,6 @@
     flex-direction: column;
     height: 100%;
 }
-.grid-items{
-    border: 2px solid red;
-}
 
 .check-in{
     grid-column: span 3;
@@ -37,4 +34,17 @@
 .busiest-day{
     grid-column: span 3;
     grid-row: span 3;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.header-day{
+    height: 10%;
+}
+.busiest-day-header{
+margin: 10px 0 0 10px;
+font: 16px 'Cascadia Code' bold;
+color: rgb(117, 115, 115);
 }

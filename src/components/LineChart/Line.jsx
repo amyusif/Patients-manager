@@ -6,7 +6,7 @@ const Line = ({lineData}) => {
     <div style={{ height: "100%", width: '100%'}}>
       <ResponsiveLine
         data={lineData}
-        margin={{ top: 10, right: 1, bottom: 0, left: 1 }}
+        margin={{ top: 10, right: 1, bottom: 1, left: 1 }}
         xScale={{ type: "point" }}
         yScale={{
           type: "linear",
@@ -30,7 +30,7 @@ const Line = ({lineData}) => {
         enableGridX={false}
         enableGridY={false}
         enableSlices='x'
-        areaOpacity='0.5'
+        areaOpacity='0.7'
         colors={{ datum: 'color' }}
       />
     </div>

@@ -5,3 +5,17 @@
     font-size: 25px;
     color: #474E68;
 }
+.notification{
+    display: flex;
+}
+sup{
+    font-size: 11px;
+    margin-top: 5px;
+    margin-left: -3px;
+    padding: 3px;
+    background-color: rgb(189, 88, 88);
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}

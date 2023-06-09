@@ -18,7 +18,7 @@ const SidebarNav = () => {
         <div className="links">
           {main.map((link, i) => {
             return (
-              <SideLinks name={link.name} icon={link.icon} to={link.path}/>
+              <SideLinks name={link.name} icon={link.icon} to={link.path} key={i}/>
             );
           })}
         </div>
