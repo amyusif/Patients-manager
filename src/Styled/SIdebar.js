@@ -1,9 +1,10 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { Box } from "./GlobalStyles";
+import { Darktheme } from "../components/Utils/Colors";
 
 export const SideRoute = styled(Link)`
-color: #038fde;
+color: ${Darktheme.secondary};
 font-family:  Lexend,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 font-size: 15px;
 padding: 10px;
@@ -21,7 +22,7 @@ padding-left: 30px;
 export const NavBox = styled.nav`
   display: flex;
   flex-direction: column;
-  background-color: #0C134F;
+  background-color: ${Darktheme.primary};
   height: 100%;
   overflow: auto;
   padding: 10px;

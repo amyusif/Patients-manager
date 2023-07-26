@@ -15,10 +15,11 @@ import Management from '../Pages/Queue management/Management/Management'
 import Meeting from '../Pages/Meeting/Meeting'
 import Service from '../Pages/Services/Service'
 import Users from '../Pages/Users/Users'
+import { PagesRenderBox } from '../Styled/Pages'
 
 const SetRoutes = () => {
   return (
-    <div style={{height: '100%'}}>
+    <PagesRenderBox>
       <Routes>
     <Route path='/' element={<Dashboard />} />
     <Route path='/notifications' element={<Notification />} />
@@ -37,7 +38,7 @@ const SetRoutes = () => {
     <Route path='/users' element={<Users />} />
     
       </Routes>
-    </div>
+    </PagesRenderBox>
   )
 }
 

@@ -1,7 +1,7 @@
 export const Darktheme = {
-    primary: '',
-    secondary: '',
-    accent: ''
+    primary: '#282c34', // whole page bg
+    secondary: '#e9ecef',
+    accent: '#282828' // cards
 }
 
 

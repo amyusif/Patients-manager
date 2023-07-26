@@ -11,9 +11,7 @@ function App() {
       <SidebarNav />
       <Box w={85} fd="column" g={10}>
         <Topbar />
-        <div className="pages">
-          <SetRoutes />
-        </div>
+        <SetRoutes />
       </Box>
     </AppContainer>
   );

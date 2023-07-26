@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Darktheme } from "../components/Utils/Colors";
 
 export const Box = styled.div`
   display: flex;
@@ -16,7 +17,7 @@ export const Typo = styled.h6`
 export const AppContainer = styled.div`
 height: 100%;
 display: flex;
-background-color: #f3f3f3;
+background-color: ${Darktheme.primary};
 gap: 10px;
 `
 export const Para = styled.p`
