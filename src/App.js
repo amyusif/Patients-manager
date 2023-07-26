@@ -3,22 +3,19 @@ import "./app.scss";
 import SidebarNav from "./components/Global/Sidebar/Sidebars";
 import Topbar from "./components/Global/Topbar/Topbar";
 import SetRoutes from "./Routes/SetRoutes";
+import { AppContainer, Box } from "./Styled/GlobalStyles";
 
 function App() {
   return (
-    <div className="app">
-      <div className="sidebar">
-        <SidebarNav />
-      </div>
-      <div className="right">
-        <div className="topbar">
-          <Topbar />
-        </div>
+    <AppContainer>
+      <SidebarNav />
+      <Box w={85} fd="column" g={10}>
+        <Topbar />
         <div className="pages">
-        <SetRoutes />
+          <SetRoutes />
         </div>
-      </div>
-    </div>
+      </Box>
+    </AppContainer>
   );
 }
 

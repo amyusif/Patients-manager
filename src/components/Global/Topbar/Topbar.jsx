@@ -1,17 +1,17 @@
-import React from 'react'
-import './Topbar.scss';
-import SearchInput from '../../Input/SearchInput';
-import FullDate from '../../CurrentDate/FullDate';
-import IconList from '../../Utilities/IconList';
+import React from "react";
+import SearchInput from "../../Input/SearchInput";
+import FullDate from "../../CurrentDate/FullDate";
+import IconList from "../../IconList/IconList";
+import { TopBox } from "../../../Styled/Topbar";
 
 const Topbar = () => {
   return (
-    <div className='top-bar'>
-        <SearchInput />
-        <FullDate />
-        <IconList />
-    </div>
-  )
-}
+    <TopBox>
+      <SearchInput />
+      <FullDate />
+      <IconList />
+    </TopBox>
+  );
+};
 
-export default Topbar
+export default Topbar;

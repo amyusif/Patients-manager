@@ -8,10 +8,11 @@ import {
   Checkout,
   Daily,
   Weekly,
-  GridData
-} from "../../Data/SidebarData";
+  GridData,
+} from "../../Data/AppData";
 import Line from "../../components/LineChart/Line";
 import GridTable from "../../components/DataGrid/GridTable";
+import { PgWrap } from "../../Styled/Dashboard";
 
 const Dashboard = () => {
   const columns = [
@@ -30,7 +31,7 @@ const Dashboard = () => {
         name="DASHBOARD"
         subtitle="Hello Yusif, Welcome to the Dashboard"
       />
-      <div className="dash-grid">
+      <PgWrap>
         <div className=" check-in">
           <Card
             title="Check-In Visitors"
@@ -68,7 +69,7 @@ const Dashboard = () => {
           </div>
           <GridTable column={columns} row={GridData} />
         </div>
-      </div>
+      </PgWrap>
     </div>
   );
 };

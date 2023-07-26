@@ -1,13 +1,15 @@
 import React from "react";
 import "./Notification.scss";
+import { Box } from "../../Styled/GlobalStyles";
+import { VariantH5 } from "../../Styled/SIdebar";
 
 const Notification = () => {
   return (
-    <div className="notify">
-      <h5 className="text-notify">
+    <Box>
+      <VariantH5>
         You have no notifications. It will appear here
-      </h5>
-    </div>
+      </VariantH5>
+    </Box>
   );
 };
 

@@ -1,25 +1,16 @@
 import React from "react";
-import "./card.scss";
+import { CardBox, MinBox, VariantH6 } from "../../Styled/Pages";
+import { Para } from "../../Styled/GlobalStyles";
 
-const Card = ({ title, figure, chart, value }) => {
-
-
+const Card = ({ title, figure, chart }) => {
   return (
-    <div className="card">
-      <div className="up">
-      <div className="left">
-      
-      <p>{title}</p>
-      <h6>{figure}</h6>
-      </div>
-      <h4>
-      {value}
-      </h4>
-      </div>
-      <div className="bottom">
-        {chart}
-      </div>
-    </div>
+    <CardBox>
+      <MinBox>
+        <Para>{title}</Para>
+        <VariantH6>{figure}</VariantH6>
+      </MinBox>
+      {chart}
+    </CardBox>
   );
 };
 

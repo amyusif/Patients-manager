@@ -2,7 +2,7 @@ import React from "react";
 import GlobalPage from "../../components/GlobalPage/GlobalPage";
 import GridTable from "../../components/DataGrid/GridTable";
 
-import { VisitorsData } from "../../Data/SidebarData";
+import { VisitorsData } from "../../Data/AppData";
 
 const VisitorsLog = () => {
   const columns = [
@@ -57,7 +57,7 @@ const VisitorsLog = () => {
           ADD PATIENT
         </button>
       </div>
-        <GridTable column={columns} row={VisitorsData} />
+      <GridTable column={columns} row={VisitorsData} />
     </div>
   );
 };
