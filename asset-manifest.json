@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Patients-manager/static/css/main.0d7af5fb.css",
+    "main.js": "/Patients-manager/static/js/main.9dab8006.js",
+    "static/media/medical.png": "/Patients-manager/static/media/medical.dda9474a0b7766cc3498.png",
+    "index.html": "/Patients-manager/index.html",
+    "main.0d7af5fb.css.map": "/Patients-manager/static/css/main.0d7af5fb.css.map",
+    "main.9dab8006.js.map": "/Patients-manager/static/js/main.9dab8006.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d7af5fb.css",
+    "static/js/main.9dab8006.js"
+  ]
+}
